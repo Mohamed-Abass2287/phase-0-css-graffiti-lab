@@ -1,1 +1,55 @@
-/* write your override styles here */
+/* Kitty 1 */
+.kitty-1 {
+    position: absolute;
+    z-index: 1;
+    top: 276px;
+    left: 129px;
+    width: 100px; /* Added */
+    height: 100px; /* Added */
+    border: 2px solid #ff6347; /* Added */
+    border-radius: 10px; /* Added */
+  }
+  
+  /* Kitty 2 */
+  #kitty-2 {
+    position: absolute;
+    z-index: 2;
+    top: 212px;
+    left: 369px;
+    width: 120px; /* Added */
+    height: 120px; /* Added */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Added */
+  }
+  
+  /* Basket Image */
+  #basket img {
+    position: absolute;
+    z-index: 5;
+    top: 291px;
+    left: 319px;
+    width: 80px; /* Added */
+    height: 80px; /* Added */
+    opacity: 0.9; /* Added */
+  }
+  
+  /* Ball Sibling Image */
+  #ball + img {
+    position: absolute;
+    z-index: 4;
+    top: 260px;
+    left: 455px;
+    width: 90px; /* Added */
+    height: 90px; /* Added */
+    transition: transform 0.3s ease; /* Added */
+  }
+  
+  /* Kitty 5 */
+  img[alt="Kitty 5"] {
+    position: absolute;
+    z-index: 3;
+    top: 217px;
+    left: 223px;
+    width: 110px; /* Added */
+    height: 110px; /* Added */
+    filter: grayscale(50%); /* Added */
+  }
